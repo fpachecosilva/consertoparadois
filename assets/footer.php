@@ -6,4 +6,4 @@
 	</footer>
 
 	<script type="text/javascript" src="<? echo $url ?>assets/javascript/jquery.js"></script>
-	<script type="text/javascript" src="<? echo $url ?>assets/javascript/estrutura.js?v2"></script>
+	<script type="text/javascript" src="<? echo $url ?>assets/javascript/estrutura.js?v3"></script>
