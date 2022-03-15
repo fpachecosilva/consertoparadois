@@ -41,11 +41,16 @@
 <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900&display=swap" rel="stylesheet">
-<link type="text/css" rel="stylesheet" href="<?php echo $url ?>assets/css/estrutura.css?v=5" media="all" />
 
 
-<!-- Global site tag (gtag.js) - Google Ads: 10777284631 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10777284631"></script>
+<script>
+	var randomNumber = Math.floor(Math.random() * (99999 - 10000) + 10000);
+	document.write(' <link type="text/css" rel="stylesheet" href="<?php echo $url ?>assets/css/estrutura.css?v'+randomNumber+'" media="all" /> ')
+</script>
+
+
+<!-- Global site tag antigo (gtag.js) - Google Ads: 10777284631 -->
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10777284631"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
 
@@ -55,20 +60,20 @@
     gtag('js', new Date());
 
     gtag('config', 'AW-10777284631');
-</script>
+</script> -->
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-208662885-1"></script>
+<!-- Global site tag (gtag.js) - Google Ads: 10777284631 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10777284631"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-208662885-1');
+  gtag('config', 'AW-10777284631');
 </script>
 
-<!-- Event snippet for Click LP [VL] conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+
+<!-- Event snippet for Click LP [VL] conversion page -->
 <script>
     function gtag_report_conversion(praca) {
         var callback = function() {
@@ -77,14 +82,15 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             }
         };
         gtag('event', 'conversion', {
-            'send_to': 'AW-10777284631/2T6xCMiHw_YCEJeggZMo',
+            'send_to': 'AW-10777284631/gwD3CPDTyPYCEJeggZMo',
             'event_callback': callback
         });
         return false;
     }
 </script>
 
-<script>
+<!-- Remarketing antigo -->
+<!-- <script>
     gtag('event', 'page_view', {
         'send_to': 'AW-10777284631',
         'value': 'replace with value',
@@ -92,35 +98,40 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 			'google_business_vertical': 'custom'
 		}]
     });
+</script> -->
+
+<!-- Remarketing novo -->
+<script>
+  gtag('event', 'page_view', {
+    'send_to': 'AW-10777284631',
+    'value': 'replace with value',
+    'items': [{
+      'id': 'replace with value',
+      'location_id': 'replace with value',
+      'google_business_vertical': 'custom'
+    }]
+  });
 </script>
+
 
 
 <!-- Facebook Pixel Code -->
 <script>
-    ! function(f, b, e, v, n, t, s) {
-        if (f.fbq) return;
-        n = f.fbq = function() {
-            n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-        };
-        if (!f._fbq) f._fbq = n;
-        n.push = n;
-        n.loaded = !0;
-        n.version = '2.0';
-        n.queue = [];
-        t = b.createElement(e);
-        t.async = !0;
-        t.src = v;
-        s = b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '585258945949868');
-    fbq('track', 'PageView');
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '585258945949868'); 
+fbq('track', 'PageView');
 </script>
 <noscript>
-    <img height="1" width="1" src="https://www.facebook.com/tr?id=585258945949868&ev=PageView
-&noscript=1" />
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=585258945949868&ev=PageView
+&noscript=1"/>
 </noscript>
 <!-- End Facebook Pixel Code -->
 
