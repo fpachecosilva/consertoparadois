@@ -89,17 +89,6 @@
     }
 </script>
 
-<!-- Remarketing antigo -->
-<!-- <script>
-    gtag('event', 'page_view', {
-        'send_to': 'AW-10777284631',
-        'value': 'replace with value',
-        'items': [{
-			'google_business_vertical': 'custom'
-		}]
-    });
-</script> -->
-
 <!-- Remarketing novo -->
 <script>
   gtag('event', 'page_view', {
@@ -111,6 +100,16 @@
       'google_business_vertical': 'custom'
     }]
   });
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-223305682-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-223305682-1');
 </script>
 
 
