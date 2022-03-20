@@ -557,9 +557,8 @@
 			</div>
 
 			<div class="card">				
-				<!-- <a onclick="gtag_report_conversion('<? echo $siteVendasSALVADOR ?>')" class="Btn" href="<? echo $siteVendasSALVADOR ?>"> -->
-				<a onclick="javascript:void()" class="disabledbutton">
-					<h2>SALVADOR (ABERTURA DE VENDAS EM BREVE)</h2>					
+				<a onclick="gtag_report_conversion('<? echo $siteVendasSALVADOR ?>')" class="Btn" href="<? echo $siteVendasSALVADOR ?>">				
+					<h2>SALVADOR</h2>					
 				</a>
 			</div>
 

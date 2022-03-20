@@ -29,7 +29,7 @@
 		$siteVendasRECIFE		= 'https://www.ingressodigital.com/evento/4182,4184/Claudia_Raia__Jarbas_Homem_de_Mello__Conserto_Para_Dois';
 		$siteVendasFORTALEZA	= 'https://uhuu.com/evento/ce/fortaleza/conserto-para-dois-o-musical-9967/evento/ce/fortaleza/conserto-para-dois-o-musical-9967/evento/ce/fortaleza/conserto-para-dois-o-musical-9967/evento/ce/fortaleza/conserto-para-dois-o-musical-9967';
 		$siteVendasJOAOPESSOA	= 'https://bit.ly/35rJmoe';
-		$siteVendasSALVADOR		= '';
+		$siteVendasSALVADOR		= 'https://bileto.sympla.com.br/event/72222';
 		$siteVendasRJ			= '';
 		
 ?>
