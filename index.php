@@ -563,9 +563,8 @@
 			</div>
 
 			<div class="card">				
-				<!-- <a onclick="gtag_report_conversion('<? echo $siteVendasRJ ?>')" class="Btn" href="<? echo $siteVendasRJ ?>"> -->
-				<a onclick="javascript:void()" class="disabledbutton">
-					<h2>RIO DE JANEIRO (ABERTURA DE VENDAS EM BREVE)</h2>
+				<a onclick="gtag_report_conversion('<? echo $siteVendasRJ ?>')" class="Btn" href="<? echo $siteVendasRJ ?>">				
+					<h2>RIO DE JANEIRO</h2>
 				</a>
 			</div>
 
