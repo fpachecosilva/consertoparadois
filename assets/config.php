@@ -2,8 +2,8 @@
 <?php
 	$empresa = 'CONSERTO PARA DOIS';
 	$CNPJ = '00.000.000/0001-00';
-	$url = 'http://localhost/consertoparadois/';
-	// $url = 'https://www.consertoparadois.com.br/';
+	// $url = 'http://localhost/consertoparadois/';
+	$url = 'https://www.consertoparadois.com.br/';
 	// $url = 'https://previewbsagency.com.br/consertoparadois/';
 	$images = $url.'assets/images/';
 	$Tags = '';
@@ -30,6 +30,6 @@
 		$siteVendasFORTALEZA	= 'https://uhuu.com/evento/ce/fortaleza/conserto-para-dois-o-musical-9967/evento/ce/fortaleza/conserto-para-dois-o-musical-9967/evento/ce/fortaleza/conserto-para-dois-o-musical-9967/evento/ce/fortaleza/conserto-para-dois-o-musical-9967';
 		$siteVendasJOAOPESSOA	= 'https://bit.ly/35rJmoe';
 		$siteVendasSALVADOR		= 'https://bileto.sympla.com.br/event/72222';
-		$siteVendasRJ			= '';
+		$siteVendasRJ			= 'https://bileto.sympla.com.br/event/72465/d/133207/s/840144';
 		
 ?>
