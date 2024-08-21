@@ -49,19 +49,6 @@
 </script>
 
 
-<!-- Global site tag antigo (gtag.js) - Google Ads: 10777284631 -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10777284631"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-10777284631');
-</script> -->
-
 <!-- Global site tag (gtag.js) - Google Ads: 10777284631 -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10777284631"></script>
 <script>

@@ -91,7 +91,6 @@ jQuery(document).ready(function () {
 		})
 
 	})
-
 	// Navegacao Locais
 
 
@@ -180,5 +179,34 @@ jQuery(document).ready(function () {
 		//
 	}
 	else { }
+
+
+		// MENU
+		let menu = document.querySelector('.menu .center')
+		let header = document.querySelector('header')
+		let body = document.querySelector('body')
+		let menuItens = [...document.querySelectorAll('header a')]
+			
+		menu.addEventListener('click', ()=> {
+			menu.classList.toggle('open')
+			header.classList.toggle('open')
+			body.classList.toggle('open')
+		})
+	
+		for (i in menuItens) {
+			menuItens[i].addEventListener('click', (e)=>{
+				menu.classList.toggle('open')
+				header.classList.toggle('open')
+				body.classList.toggle('open')
+				let href = e.target.attributes.href.nodeValue.replace('#','')
+				
+				const contentDivs = document.querySelectorAll('.content-item')
+				contentDivs.forEach(box => {				
+					box.classList.remove('open')
+				})
+				let content = document.querySelector(`#${href}`)
+				content.classList.add('open')
+			})
+		}
 
 });

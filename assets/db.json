@@ -1,0 +1,148 @@
+{
+    "locais": [
+        {
+            "ativo": "active",
+            "breve": false,
+            "sigla": "PR",
+            "nome": "Curitiba",
+            "local": "Teatro Guaíra",
+            "localend": "R. XV de Novembro, 971 - Centro, Curitiba - PR, 80060-000",
+            "link": "https://www.diskingressos.com.br/grupo/1911/2024-08-24/pr/curitiba/conserto-para-dois-o-musical",
+            "horarios": {
+                "resumo": "",
+                "datas": "24 de agosto de 2024",
+                "diashorarios": "Sábado, às 21h."
+            },
+            "tabela": {
+                "dia1": {
+                    "dia": "Sáb",
+                    "hora": "21h"
+                }
+            }
+        },
+        {
+            "ativo": "",
+            "breve": false,
+            "sigla": "SP",
+            "nome": "Pirassununga",
+            "local": "Centro de Convenções Prof. Dr. Fausto Victorelli",
+            "localend": "Av. Painguás, 2014 - Vila Guimaraes, Pirassununga - SP, 13630-161",
+            "link": "https://bileto.sympla.com.br/event/97470/d/273823/s/1869867",
+            "horarios": {
+                "resumo": "",
+                "datas": "de 30 de agosto a 01 de setembro",
+                "diashorarios": "Sexta e sábado às 20h, domingo às 18h"
+            },
+            "tabela": {
+                "dia1": {
+                    "dia": "Sex / Sáb",
+                    "hora": "20h"
+                },
+                "dia2": {
+                    "dia": "Dom",
+                    "hora": "18h"
+                }
+            }
+        },
+        {
+            "ativo": "",
+            "breve": false,
+            "sigla": "SP",
+            "nome": "Lençóis Paulista",
+            "local": "Teatro Municipal de Lençois Paulista",
+            "localend": "R. Cel. Álvaro Martins, 790 - Centro, Lençóis Paulista - SP, 18682-180",
+            "link": "https://bileto.sympla.com.br/event/97566/d/274273",
+            "horarios": {
+                "resumo": "",
+                "datas": "06, 07 e 08 de setembro de 2024",
+                "diashorarios": "Sexta e sábado às 20h, domingo às 18h"
+            },
+            "tabela": {
+                "dia1": {
+                    "dia": "Sex / Sáb",
+                    "hora": "20h"
+                },
+                "dia2": {
+                    "dia": "Dom",
+                    "hora": "18h"
+                }
+            }
+        },
+        {
+            "ativo": "",
+            "breve": false,
+            "sigla": "SP",
+            "nome": "São Paulo",
+            "local": "Teatro Frei Caneca",
+            "localend": "R. Frei Caneca, 569 - Consolação, São Paulo - SP, 01307-001",
+            "link": "https://uhuu.com/comprar-ingressos/sp/sao-paulo/conserto-para-2-o-musical-13505?queueittoken=e_principal~q_e061ca1f-e47e-4042-99e1-8fa24320a123~ts_1723559383~ce_true~rt_safetynet~h_589d81a610e2ed11f0ca668ea45f3ac8e3e5ace63cda28f0f45fcc17f125923f#/fluxo-de-selecao",
+            "horarios": {
+                "resumo": "",
+                "datas": "de 13 de setembro a 24 de novembro de 2024",
+                "diashorarios": "Sexta às 19h, Sábado às 20h e domingo às 18h"
+            },
+            "tabela": {
+                "dia1": {
+                    "dia": "Sex",
+                    "hora": "19h"
+                },
+                "dia2": {
+                    "dia": "Sáb",
+                    "hora": "20h"
+                },
+                "dia3": {
+                    "dia": "Dom",
+                    "hora": "18h"
+                }
+            }
+        },
+        {
+            "ativo": "",
+            "breve": false,
+            "sigla": "RJ",
+            "nome": "Rio de Janeiro",
+            "local": "Cidade das Artes",
+            "localend": "Av. das Américas, 5300 - Barra da Tijuca, Rio de Janeiro - RJ, 22793-080",
+            "link": "",
+            "horarios": {
+                "resumo": "",
+                "datas": "de 29 e 30 de novembro e 01 de dezembro / 06, 07 e 08 de dezembro de 2024",
+                "diashorarios": "sexta e sábado às 20h30 e domingo às 18h"
+            },
+            "tabela": {
+                "dia1": {
+                    "dia": "Sex / Sáb",
+                    "hora": "20h30"
+                },
+                "dia2": {
+                    "dia": "Dom",
+                    "hora": "18h"
+                }
+            }
+        },
+        {
+            "ativo": "",
+            "breve": false,
+            "sigla": "ES",
+            "nome": "Vitória",
+            "local": "Teatro dos Universitários",
+            "localend": "Av. Fernando Ferrari, 514 - Goiabeiras, Vitória - ES, 29075-910",
+            "link": "",
+            "horarios": {
+                "resumo": "",
+                "datas": "de 13 a 15 de dezembro",
+                "diashorarios": "sexta a sábado às 20h e domingo às 18h"
+            },
+            "tabela": {
+                "dia1": {
+                    "dia": "Sex / Sáb",
+                    "hora": "20h"
+                },
+                "dia2": {
+                    "dia": "Dom",
+                    "hora": "18h"
+                }
+            }
+        }
+    ]
+}
