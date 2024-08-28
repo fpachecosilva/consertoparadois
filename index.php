@@ -138,10 +138,10 @@
 			“Dona Socorro, por exemplo, é uma mulher com curvas acentuadas e roupas extravagantes. Foi preciso um estudo para chegarmos na transformação do corpo de Jarbas para dona Socorro. A solução que encontramos foi um vestido com enchimentos. Assim, garantimos uma troca rápida quando ele sai de um personagem para outro e conseguimos mudar totalmente a estrutura do corpo masculino para uma bela senhora ousada, cheia de curvas e nada discreta (risos)”, diverte-se Bruno.
 		</p>
 
-		<!-- <a href="<? echo $images ?>programa.pdf" class="Btn-primary programa" id="programa" download>
+		<a href="<? echo $images ?>programa_2024.pdf" class="Btn-primary programa" id="programa" download>
 			<span><i class="fas fa-file-pdf"></i></span>
 			Clique aqui e baixe o PDF do programa do espetáculo
-		</a> -->
+		</a>
 
 		<a href="https://open.spotify.com/intl-pt/album/0fCAp15Eog4ptVrxZCABMA" target="_blank" class="Btn-primary programa" id="programa" download>
 			<span><i class="fas fa-play-circle"></i></span>
@@ -199,7 +199,7 @@
 	</section>
 
 	<section id="ingressos">
-		<h1 class="">INGRESSOS</h1>
+		<h1 class="">PRÓXIMAS APRESENTAÇÕES</h1>
 		<div class="wrapper-card ">
 			<?php
 				foreach ($data->locais as $local) {

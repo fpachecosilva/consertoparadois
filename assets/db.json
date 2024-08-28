@@ -3,50 +3,6 @@
         {
             "ativo": "active",
             "breve": false,
-            "sigla": "PR",
-            "nome": "Curitiba",
-            "local": "Teatro Guaíra",
-            "localend": "R. XV de Novembro, 971 - Centro, Curitiba - PR, 80060-000",
-            "link": "https://www.diskingressos.com.br/grupo/1911/2024-08-24/pr/curitiba/conserto-para-dois-o-musical",
-            "horarios": {
-                "resumo": "",
-                "datas": "24 de agosto de 2024",
-                "diashorarios": "Sábado, às 21h."
-            },
-            "tabela": {
-                "dia1": {
-                    "dia": "Sáb",
-                    "hora": "21h"
-                }
-            }
-        },
-        {
-            "ativo": "",
-            "breve": false,
-            "sigla": "SP",
-            "nome": "Pirassununga",
-            "local": "Centro de Convenções Prof. Dr. Fausto Victorelli",
-            "localend": "Av. Painguás, 2014 - Vila Guimaraes, Pirassununga - SP, 13630-161",
-            "link": "https://bileto.sympla.com.br/event/97470/d/273823/s/1869867",
-            "horarios": {
-                "resumo": "",
-                "datas": "de 30 de agosto a 01 de setembro",
-                "diashorarios": "Sexta e sábado às 20h, domingo às 18h"
-            },
-            "tabela": {
-                "dia1": {
-                    "dia": "Sex / Sáb",
-                    "hora": "20h"
-                },
-                "dia2": {
-                    "dia": "Dom",
-                    "hora": "18h"
-                }
-            }
-        },
-        {
-            "ativo": "",
-            "breve": false,
             "sigla": "SP",
             "nome": "Lençóis Paulista",
             "local": "Teatro Municipal de Lençois Paulista",
